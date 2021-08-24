@@ -1,0 +1,19 @@
+<div class="card">
+  <img [src]="music?.artworkUrl100" class="img-music" alt="">
+  <div class="music-content">
+    <div class="artist">{{music?.artistName}}</div>
+    <div class="song">{{music.trackName}}</div>
+
+    <div class="bottom">
+      <div class="genre-wrapper">
+
+        <div class="genre">
+          {{music.primaryGenreName}}
+        </div>
+      </div>
+      <img src="../../../assets/images/currency-dollar@3x.png" alt="" height="16">
+      <span class="currency"> {{music.trackPrice}}</span>
+    </div>
+
+  </div>
+</div>

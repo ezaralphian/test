@@ -1,0 +1,20 @@
+.music-container {
+  display: flex;
+  flex-direction: column;
+  padding: 90px 15px 0;
+}
+
+.result-key-wrapper {
+  align-self: center;
+  margin-bottom: 36px;
+}
+
+.result {
+  font-size: 14px;
+  color: #334155;
+}
+
+.key {
+  font-size: 18px;
+  color: #7b34dd;
+}

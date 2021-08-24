@@ -1,0 +1,16 @@
+<div class="bar">
+  <nav>
+    <img class="pointer" routerLink="/" src="../../../assets/images/menu@3x.png" height="11" alt="">
+    <img class="pointer" src="../../../assets/images/ngmusic@3x.png" alt="">
+    <img class="pointer" (click)="switchModal(true)" src="../../../assets/images/search@3x.png" height="14" alt="">
+  </nav>
+</div>
+
+<div *ngIf="showModal" class="modal-wrapper">
+  <div class="close pointer" (click)="switchModal(false)">
+    X
+  </div>
+  <div class="wrapper">
+    <app-search-form (additionalFunction)="switchModal(false)" [mode2]="true"></app-search-form>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<app-header></app-header>
+<div class="music-container">
+  <div class="result-key-wrapper">
+    <label class="result" for="">Search result for : </label>
+    <label class="key" for="">{{search}}</label>
+  </div>
+  <app-card-music *ngFor="let music of musicList" [music]="music"></app-card-music>
+</div>

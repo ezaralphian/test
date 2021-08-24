@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  margin-bottom: 15px;
+  padding: 12px 12px 11px 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+}
+
+.img-music {
+  width: 100px;
+  height: 100px;
+  margin-right: 12px;
+  border-radius: 10px;
+
+}
+
+.music-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.artist {
+  font-size: 11px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+.song {
+  font-size: 16px;
+  font-weight: bold;
+  flex: 1;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+}
+.genre-wrapper {
+  flex: 1;
+}
+.genre {
+  width: fit-content;
+  height: fit-content;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #10b981;
+  color: #fff;
+  font-size: 10px;
+}
+.currency {
+  margin-left: 5px;
+  color: #f5b014;
+  font-size: 12px;
+  font-weight: bold;
+}

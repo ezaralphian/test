@@ -1,0 +1,14 @@
+.bg-home {
+  min-height: 100vh;
+  background-image: linear-gradient(153deg, #712bda, #a45deb 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+.main-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

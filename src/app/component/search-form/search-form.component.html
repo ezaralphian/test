@@ -1,0 +1,5 @@
+<form [formGroup]="searchForm" novalidate>
+  <input formControlName="search" type="text" placeholder="Artist / Album / Title">
+  <button [ngClass]="mode2?'button-modal':
+  'button-home' " (click)="onSearch()">Search</button>
+</form>
